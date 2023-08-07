@@ -71,7 +71,7 @@ def main():
         pin = input("PIN: ")
 
         # Show clocked in users
-        if pin.lower() == "who":
+        if pin.lower() == "0":
             show_clocked_in_users()
             continue
 
